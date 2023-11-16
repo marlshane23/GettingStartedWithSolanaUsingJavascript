@@ -1,19 +1,16 @@
 # GettingStartedWithSolanaUsingJavascript
-This project provides a simple and straightforward guide for developers looking to get started with Solana using Javascript
+This project provides a simple and straightforward guide for developers looking to get started with Solana using Javascript. It covers the creation of a new Solana account, connecting to a Phantom Wallet, and transferring SOL between accounts.
 
 ## Description
-
 Solana is a high-performance blockchain that supports smart contracts and decentralized applications. It uses a unique proof-of-history consensus mechanism that makes it one of the fastest and most secure blockchains in the world. This project aims to help developers understand how to interact with the Solana blockchain using Javascript. It covers everything from setting up the development environment to sending transactions and interacting with smart contracts.
 
 ## Getting Started
-
 1. Create the functionality for the button titled “Create a new Solana account” that generates a new KeyPair at the backend and airdrops 2 SOL to the newly created Keypair.
 2. Once this step is completed, create the functionality for the next button that says - “Connect to Phantom Wallet”, which should connect to the Phantom Wallet if it exists.
 3. Once this step is completed, create the final functionality for a button called “Transfer SOL to New Wallet”. This button should trigger a transfer of 1 SOL (airdropped into the account you generated in step 1) to the account connected in Step 2.
 
 ### Executing program
 
-* How to run the program
 run npm dev
 ```
 // import functionalities
